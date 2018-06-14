@@ -19,10 +19,10 @@ public class App
             new Todo("Get all incomplete Todos for a given user."),
             new Todo("Get all completed Todos for a given user."),
 
-            // NOTE: To Aaron and Nick
-            // create more todos before interview ??
-
-            new Todo("Build a front-end.")
+            new Todo("Explore the react app"),
+            new Todo("Add a button to create todos"),
+            new Todo("List all the todos in the store"),
+            new Todo("Be able to set todos as completed")
         );
 
         todos.forEach((todo) -> {
