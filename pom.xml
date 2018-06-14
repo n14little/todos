@@ -60,7 +60,7 @@
         <configuration>
           <toolchains>
             <jdk>
-              <version>1.10</version>
+              <version>1.9</version>
               <vendor>oracle</vendor>
             </jdk>
           </toolchains>
