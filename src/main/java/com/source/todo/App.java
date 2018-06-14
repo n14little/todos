@@ -12,7 +12,8 @@ public class App
             new Todo("Test the two domain objects. HINT: Call the constructor, did things get set properly?"),
             new Todo("Mark a Todo as completed"),
             new Todo("Create an in-memory data store to keep track of things. Doesn't need to be anything special."),
-            new Todo("Get all incomplete todos for a given user."),
+            new Todo("Some way to connect Users and their Todos"),
+            new Todo("Get all incomplete Todos for a given user."),
             new Todo("Get all completed Todos for a given user."),
 
             // NOTE: To Aaron and Nick
