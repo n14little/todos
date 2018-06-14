@@ -3,10 +3,13 @@ import java.util.List;
 
 import com.source.todo.domain.Todo;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class App 
-{
-    public static void main( String[] args )
-    {
+{   
+    public static void main(String[] args) {
         List<Todo> todos = List.of(
             new Todo("\'mvn test\' should pass"),
             new Todo("Test the two domain objects. HINT: Call the constructor, did things get set properly?"),
@@ -25,5 +28,7 @@ public class App
         todos.forEach((todo) -> {
             System.out.println("\n" + todo.getTitle());
         });
+
+        SpringApplication.run(App.class, args);
     }
 }

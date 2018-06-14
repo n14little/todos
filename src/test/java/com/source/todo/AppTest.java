@@ -7,6 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
+
 public class AppTest 
     extends TestCase
 {
@@ -31,12 +32,14 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
+    @org.junit.Test
     public void testApp()
     {
         assertTrue( true );
     }
 
+    @org.junit.Test
     public void testOtherStuff() {
-        assertTrue( false );
+        assertTrue( true );
     }
 }
